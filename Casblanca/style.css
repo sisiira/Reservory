@@ -1,0 +1,395 @@
+body {
+  background-color: #f1f1f1;
+}
+
+#navbar {
+  display: flex;
+  position: fixed;
+  justify-content: flex;
+  align-items: center;
+  padding: 10px 700px;
+  background-color: #f1f1f1;
+  color: #1f1c1c;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: all 0.5s ease;
+}
+
+#navbar.scrolled {
+  display: flex;
+  background-color: #272727;
+}
+
+#navbar.scrolled a {
+  color: #ffffff;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #3d3b3b;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 1.5s ease;
+}
+
+nav ul li a:hover {
+  background-color: #2e2c2c;
+  color: #242222dd;
+}
+
+.first {
+  margin-top: 100px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.first h1 {
+  color: #7da3f7;
+  font-size: 80px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.info p {
+  display: flex;
+  color: #333;
+  justify-content: space-between;
+  margin-top: 50px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.info h4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 23px;
+  color: #333;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 100px;
+  text-align: center;
+  box-shadow: inset 0 0 0 500px rgb(37, 41, 43);
+  color: #dddada;
+}
+
+table th {
+  background-color: #d3ae7d;
+  color: #000000;
+  padding: 10px;
+  font-size: 20px;
+}
+
+table td {
+  padding: 10px;
+  font-size: 18px;
+}
+
+section {
+  border-top: 2px solid rgb(25, 61, 85);
+}
+
+.place {
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #333;
+  border-top: 2px solid #242222dd;
+  background-color: rgb(220, 212, 255);
+}
+
+.place li a {
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  transition: all 1.5s ease;
+  border: 2px solid #242222dd;
+  padding: 20px;
+  margin: 0px;
+}
+
+.place p {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 35px;
+  color: #333;
+}
+
+.place ul {
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+  text-decoration: none;
+}
+
+.place ul li {
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  width: 90px;
+  color: #ffffff;
+  border-radius: 10%;
+  padding: 15px;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.place ul li:hover {
+  transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+}
+
+.place ul li a {
+  text-decoration: none;
+  color: #222222;
+  padding: auto;
+  font-size: 19px;
+}
+
+.hotel {
+  margin-top: 10px;
+}
+
+.hotel li a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  margin-top: 0px;
+  transition: all 1.5s ease;
+}
+
+.hotel li a:hover {
+  color: #242323;
+  transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+  scale: 1.1;
+}
+
+.hotel li {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 0px;
+  font-size: 35px;
+  color: #333;
+  text-align: center;
+}
+
+.hotel ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #333;
+  text-decoration: none;
+  width: auto;
+  width: 1000px;
+  margin: auto;
+}
+
+.hotel p {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: rgb(207, 75, 34);
+}
+
+.hotel p a {
+  text-decoration: none;
+  color: #e4e4e4;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  box-shadow: inset 0 0 0 500px rgb(49, 50, 51);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.hotel p,
+a:hover {
+  color: #242323;
+  text-transform: uppercase;
+  font-weight: 300;
+  transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+  scale: 1.1;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 40px;
+  color: #741a35;
+}
+
+.tourism {
+  padding: 10px;
+  margin-top: 60px;
+  background-color: rgb(255, 195, 117);
+}
+
+.tourism h2 {
+  text-align: center;
+  color: #222121;
+  font-size: 30px;
+}
+
+.tourism ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.tourism ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tourism ul li a {
+  color: #1f1e1e; /* Change as needed */
+  text-decoration: none;
+}
+
+.tourism ul li a:hover {
+  color: #555; /* Change as needed */
+}
+
+.tourism ul li a.logo1 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/TripAdvisor_Logo.svg/120px-TripAdvisor_Logo.svg.png");
+  display: inline-block;
+  width: 119px;
+  height: 27px;
+  text-indent: -9999px;
+  margin-top: 80px;
+}
+
+.tourism ul li a.logo2 {
+  background-image: url("https://cf.bstatic.com/static/img/tfl/group_logos/logo_booking/27c8d1832de6a3123b6ee45b59ae2f81b0d9d0d0.png");
+  display: inline-block;
+  width: 91px;
+  height: 20px;
+  text-indent: -9999px;
+  margin-top: 80px;
+}
+
+.tourism ul li a.logo3 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/fr/thumb/f/fc/Lonely_Planet.png/120px-Lonely_Planet.png?20130818113420");
+  display: inline-block;
+  width: 120px;
+  height: 60px;
+  text-indent: -9999px;
+  margin-top: 80px;
+}
+
+.tourism ul li a.logo4 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/archive/6/69/20140813142237%21Airbnb_Logo_B%C3%A9lo.svg/120px-Airbnb_Logo_B%C3%A9lo.svg.png");
+  display: inline-block;
+  width: 112px;
+  height: 60px;
+  text-indent: -9999px;
+  margin-top: 80px;
+}
+
+.tourism ul li a.logo1:hover,
+.tourism ul li a.logo2:hover,
+.tourism ul li a.logo3:hover,
+.tourism ul li a.logo4:hover {
+  opacity: 0.2;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
+  color: #ffffff;
+  padding: 7px;
+  bottom: 0;
+  margin: 1px;
+  text-align: center;
+  font-size: 15px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.gallery img {
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+}
+
+.gallery img:hover {
+  transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.map img {
+  width: 800px;
+  height: 500px;
+  margin: 10px;
+}
+
+.map img:hover {
+  transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+}
+
+.map h2 {
+  margin: 150px;
+}
